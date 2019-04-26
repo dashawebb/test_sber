@@ -21,13 +21,14 @@ _Исходные данные:_
 
 Перед запуском необходимо прописать переменные среды CATALINA_HOME и JAVA_HOME.
 
-Приложение с помощью драйвера JDBC посылает запрос к базе данных sber_test и создает таблицу с полями Article, Name, Shelf и Box.
+Приложение с помощью драйвера JDBC посылает запрос к базе данных sber_test и создает таблицу с полями Article, Name, Shelf и Box. 
+Дамп базы данных находится в `/src/main/resources/sber_test`
 
 Параметры соединения хранятся в файле `/src/main/resources/util.properties/`:
 
 ```
 jdbc.postgresql.driver=org.postgresql.Driver
-jdbc.postgresql.url=jdbc:postgresql://localhost:5432/sber_test
+jdbc.postgresql.url=jdbc:postgresql:sber_test
 jdbc.postgresql.user=root
 jdbc.postgresql.password=root
 ```
