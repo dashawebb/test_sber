@@ -11,8 +11,6 @@
     <title>Sber</title>
 </head>
 <body>
-<%--<h1>Hello!</h1>--%>
-<%--<p>${hello}</p>--%>
 <div align="center">
     <p>${row_00}</p>
     <p>${row_01}</p>
