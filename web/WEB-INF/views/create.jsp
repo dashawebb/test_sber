@@ -12,5 +12,32 @@
 </head>
 <body>
 <p>${status}</p>
+<table style="width:50%">
+    <tr>
+        <th>Article</th>
+        <th>Name</th>
+        <th>Shell</th>
+        <th>Box</th>
+    </tr>
+    <tr>
+        <td>A001</td>
+        <td>Гайка</td>
+        <td>1</td>
+        <td>A</td>
+
+    </tr>
+    <tr>
+        <td>A001</td>
+        <td>Гайка</td>
+        <td>1</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>A001</td>
+        <td>Гайка</td>
+        <td>1</td>
+        <td>A</td>
+    </tr>
+</table>
 </body>
 </html>

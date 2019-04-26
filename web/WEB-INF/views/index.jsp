@@ -13,7 +13,11 @@
 <body>
 <%--<h1>Hello!</h1>--%>
 <%--<p>${hello}</p>--%>
-<%--<p>${cat_name}</p>--%>
-<p>${status}</p>
+<div align="center">
+    <p>${row_00}</p>
+    <p>${row_01}</p>
+    <p>${row_02}</p>
+    <p>${row_03}</p>
+</div>
 </body>
 </html>
