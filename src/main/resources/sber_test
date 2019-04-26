@@ -1,0 +1,57 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 11.2
+-- Dumped by pg_dump version 11.2
+
+-- Started on 2019-04-26 12:24:12 MSK
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+SET row_security = off;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- TOC entry 196 (class 1259 OID 24765)
+-- Name: sber_test; Type: TABLE; Schema: public; Owner: root
+--
+
+CREATE TABLE public.sber_test (
+    "Shelf" integer,
+    "Box" character varying(255),
+    "Article" character varying(255),
+    "Name" character varying(255)
+);
+
+
+ALTER TABLE public.sber_test OWNER TO root;
+
+--
+-- TOC entry 3174 (class 0 OID 24765)
+-- Dependencies: 196
+-- Data for Name: sber_test; Type: TABLE DATA; Schema: public; Owner: root
+--
+
+COPY public.sber_test ("Shelf", "Box", "Article", "Name") FROM stdin;
+1	A	A001	Гайка
+2	B	B001	Болт
+1	C	C001	Шайба
+\.
+
+
+-- Completed on 2019-04-26 12:24:12 MSK
+
+--
+-- PostgreSQL database dump complete
+--
+
